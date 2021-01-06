@@ -4,7 +4,7 @@ body .a{
     
 }
 body{background-color: #9b1c1f;}
-body .d {position: absolute;left:25px;
+body .d {position: absolute;left:25px;top: 200px;
     color: aliceblue;
     font-size: 30px;
 }
