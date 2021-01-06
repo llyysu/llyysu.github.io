@@ -2,7 +2,7 @@
 
   body{margin-top:5px;}
 
-  #container{width:534px; height:400px; position: absolute; left:980px; top:0px; border:3px solid #333;overflow:hidden; }
+  #container{width:534px; height:400px; position: absolute; left:500px; top:200px; border:3px solid #333;overflow:hidden; }
 
   #list{width:3204px; height:400px; position:absolute; z-index:1;}
 
