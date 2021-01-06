@@ -1,0 +1,44 @@
+body{
+	margin:0;
+}
+
+#warpper .logo{
+	justify-content:center;
+	align-items:center;
+	display:-webkit-flex;
+background-color: orangered;
+} 
+#warpper .header{
+
+background-color: #183153;
+overflow:auto;
+}
+#warpper .header .nav a{  
+	font-weight:bold;
+	font: 2rem /3.2 "微软雅黑","Microsoft Yahei";
+	padding:0.5rem;
+	font-size: 1.25rem;
+	color:white;
+	float:left;
+	background-color:#9b1c1f;
+	margin:0;
+text-decoration:none;
+}
+#warpper .header .nav a.首页{
+	padding:0.5rem;
+	background-color: #1c7ed6;
+}
+#warpper .header .nav a:hover{
+	background-color: orange;
+}
+#warpper .main{
+	border: 0;
+	background-color: blueviolet;
+	font-style: 6rem;
+	justify-content:center;
+	align-items:center;
+	display:-webkit-flex;
+}
+.footer img{
+	 width: 100%;
+}
