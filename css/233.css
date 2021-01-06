@@ -1,6 +1,22 @@
 body .a{
-  
-    border:3px solid #333;
+   
     position: absolute; left:500px; top:200px;
     
 }
+body{background-color: #9b1c1f;}
+body .d {position: absolute;left:25px;
+    color: aliceblue;
+    font-size: 30px;
+}
+body .c textarea{
+    color: aliceblue;
+    background-color: #9b1c1f;
+    border: 0cm;
+    font-size: 20px
+}
+body .e img{position: absolute;
+    left:950px;
+    top:0px;
+
+}
+    
