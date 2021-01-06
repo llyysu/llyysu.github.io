@@ -12,7 +12,8 @@ body .c textarea{
     color: aliceblue;
     background-color: #9b1c1f;
     border: 0cm;
-    font-size: 20px
+    font-size: 20px;
+    resize: none;
 }
 body .e img{position: absolute;
     left:950px;
