@@ -2,14 +2,13 @@ body{
 	margin:0;
 }
 
-#warpper .logo{
+#warpper logo{
 	justify-content:center;
 	align-items:center;
 	display:-webkit-flex;
 background-color: orangered;
 } 
 #warpper .header{
-
 background-color: #183153;
 overflow:auto;
 }

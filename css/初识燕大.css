@@ -31,7 +31,7 @@ background-color: RGBA(0,0,0,.3); color:#fff;}
 .img img{
   width:100%;
 }
-.img a{
+.img a.印象{
   font-weight:bold;
 	font: 2rem /3.2 "微软雅黑","Microsoft Yahei";
 	padding:0.5rem;
@@ -43,4 +43,19 @@ background-color: RGBA(0,0,0,.3); color:#fff;}
 	background-color:#9b1c1f;
 	margin:0;
 text-decoration:none;
+}
+body a.首页{
+	padding:0.5rem;
+    position: absolute;
+    left:1400px;
+    top: 600px;
+    text-decoration: none;
+    color:darkorange;
+    font: 2rem /3.2 "微软雅黑","Microsoft Yahei";
+}
+body a.首页:hover{
+  color:wheat;
+}
+body a.b{
+  position: absolute;
 }
