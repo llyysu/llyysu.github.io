@@ -20,16 +20,78 @@ body .e img{position: absolute;
     top:0px;
 
 }
-body a.首页{
-	padding:0.5rem;
-    position: absolute;
-    left:1400px;
-    top: 600px;
-    text-decoration: none;
-    color:darkorange;
-    font: 2rem /3.2 "微软雅黑","Microsoft Yahei";
+
+.button-style1{
+	position:absolute;
+	top:90%;
+	opacity:1;
+	z-index:100;
 }
-body a.首页:hover{
-  color:wheat;
+.button-style1 {
+	position:absolute;
+	left:80%;
+	
 }
-    
+@keyframes btn1 {
+	0% {
+		opacity:0;
+		left:43.5%;
+	}
+	70% {
+		opacity:0;
+		left:43.5%;
+	}
+	100% {
+		opacity:1;
+		left:20%;
+	}
+}
+@-webkit-keyframes btn1 {
+	0% {
+		opacity:0;
+		left:43.5%;
+	}
+	70% {
+		opacity:0;
+		left:43.5%;
+	}
+	100% {
+		opacity:1;
+		left:20%;
+	}
+}
+
+.lk1 {
+	text-decoration:none;
+	font-family: Microsoft YaHei;
+	color:#fff;
+	transition:all 0.8s;
+}
+.link1{
+	width:300px;
+	height:60px;
+	border:2px solid #fff;
+	-webkit-border:1px solid #fff;
+	border-radius:30px;
+	font-size: 23px;
+	text-align:center;
+	background: #e00f2b;
+	transition:all 0.5s;
+}
+
+.bt1{
+	position:relative;
+	top:22%;
+	vertical-align:middle;
+}
+
+a.lk1:hover {
+	color:#e00f2b;
+	transition:all 0.5s;
+}
+.link1:hover {
+	background-color:#fff;
+	background-color:rgba(255,255,255,0,2);
+	border:2px solid #BBB;
+	transition:all 0.8s;
+}

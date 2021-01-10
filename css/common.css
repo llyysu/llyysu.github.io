@@ -27,7 +27,7 @@ text-decoration:none;
 }
 #warpper .header .nav a.首页{
 	padding:0.5rem;
-	background-color: #1c7ed6;
+	background-color: rgb(28, 126, 214);
 }
 #warpper .header .nav a:hover{
 	background-color: orange;
@@ -42,4 +42,13 @@ text-decoration:none;
 }
 .footer img{
 	 width: 100%;
+}
+#warpper .header .nav a:hover {
+	color:rgb(0, 0, 0);
+	transition:all 0.5s;
+}
+#warpper .header .nav a:hover {
+	background-color:rgba(28, 126, 214, 0.966);
+	background-color:rgba(255,255,255,0,2);
+	transition:all 0.8s;
 }
